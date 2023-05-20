@@ -69,7 +69,7 @@
  function search() {
   var query = document.getElementById("search-input").value;
   var sanitizedQuery = DOMPurify.sanitize(query);
-  document.getElementById("result").innerHTML = "You searched for: " + sanitizedQuery;
+  document.getElementById("result").innerText = "You searched for: " + sanitizedQuery;
  }
 </script>
 
