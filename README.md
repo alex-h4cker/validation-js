@@ -9,6 +9,7 @@ I will tell you four solutions for security against XSS attacks
 validating data
 -
 Determines whether the data has been sent in the correct form or not
+
 Functions
 
     is_email()
@@ -20,6 +21,7 @@ Functions
 sanitizing data
 -
 It means removing unauthorized characters from data and sending clean data
+
 Functions
 
     strip_tag()
@@ -31,7 +33,8 @@ Functions
 Escaping
 -
 exit security
-Escaping refers to the process of securing output data by removing unwanted data to prevent it from being seen in code.
+Escaping refers to the process of securing output data by removing unwanted data to prevent it from being seen in code
+
 Functions
 
     URLEncoder.encode
@@ -53,6 +56,7 @@ Using the textContent feature, we can get the text/content inside a tag or defin
 Safe Sinks
 -
 Sink topic in js is used to receive and process data
+
 List of Safe Sinks
 
     elem.textContent = dangerVariable;
@@ -67,6 +71,7 @@ List of Safe Sinks
 postMessage() 
 -
 It enables us to send data to different pages
+
 For security in postMessages, use the following three functions
 
     JSON.stringify
